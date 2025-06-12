@@ -4,7 +4,7 @@ A clean Alfred theme that replicates the modern Spotlight interface from macOS 2
 
 ### Features
 
-- **Modern Spotlight aesthetic** - Matches the refined look of macOS 26's spotlight interface
+- **Modern Spotlight aesthetic** - Attempts to matches the look of macOS 26's spotlight interface
 
 ### Installation
 
