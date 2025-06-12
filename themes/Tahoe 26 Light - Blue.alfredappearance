@@ -28,7 +28,7 @@
     },
     "search" : {
       "backgroundSelected" : "#0088FF40",
-      "paddingHorizontal" : 12,
+      "paddingHorizontal" : 14,
       "spacing" : 6,
       "text" : {
         "size" : 26,
@@ -60,6 +60,6 @@
       "color" : "#0088FFFF",
       "thickness" : 2
     },
-    "name" : "26 Tahole Light - Blue"
+    "name" : "Tahoe 26 Light - Blue"
   }
 }
