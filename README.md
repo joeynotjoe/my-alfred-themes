@@ -2,10 +2,6 @@
 
 A clean Alfred theme that replicates the modern Spotlight interface from macOS 26 "Tahoe".
 
-### Features
-
-- **Modern Spotlight aesthetic** - Attempts to matches the look of macOS 26's spotlight interface
-
 ### Installation
 
 1. Download the theme file
