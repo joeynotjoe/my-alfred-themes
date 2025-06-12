@@ -14,7 +14,7 @@ A clean Alfred theme that replicates the modern Spotlight interface from macOS 2
 ### Screenshots
 
 #### The Theme in Alfred
-![Tahoe 26 Light - Blue - Alfred](assets/Tahoe%2026%20Light%20-%20Blue%20-%20Alfred.png)
+![Tahoe 26 Light - Blue - Alfred](assets/Tahoe%2026%20Light%20-%20Blue%20-%20Alfred.jpg)
 
 #### Spotlight (macOS 26 Beta 1)
-![Spotlight](assets/Tahoe%2026%20Light%20-%20Blue%20-%20Spotlight.png)
+![Spotlight](assets/Tahoe%2026%20Light%20-%20Blue%20-%20Spotlight.jpg)
