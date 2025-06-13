@@ -216,14 +216,17 @@ class ThemesCard {
                 <div class="content-area">
                     <div class="content-header">
                         <div class="content-title">
-                            <span class="color-indicator blue"></span>
-                            <span id="theme-title">Light Mode - Blue</span>
-                            <a href="themes/Tahoe%2026%20Light%20-%20Blue.alfredappearance" class="download-btn" download id="download-btn">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <div class="title-left">
+                                <span class="color-indicator blue"></span>
+                                <span id="theme-title">Light Mode - Blue</span>
+                            </div>
+                            <a href="themes/Tahoe%2026%20Light%20-%20Blue.alfredappearance" class="download-btn compact" download id="download-btn">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                                     <polyline points="7,10 12,15 17,10"/>
                                     <line x1="12" y1="15" x2="12" y2="3"/>
                                 </svg>
+                                <span>Download</span>
                             </a>
                         </div>
                     </div>

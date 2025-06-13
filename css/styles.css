@@ -721,7 +721,61 @@ body.dark .variant-item.active {
     color: #1d1d1f;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex: 1;
     gap: 0.75rem;
+}
+
+.title-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.download-btn.compact {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    gap: 0.4rem;
+    border-radius: 8px;
+}
+
+.download-btn.compact span {
+    font-size: 0.9rem;
+}
+
+/* Download button color variants */
+.download-btn.compact.blue {
+    background: linear-gradient(135deg, #007aff, #5856d6);
+}
+
+.download-btn.compact.purple {
+    background: linear-gradient(135deg, #af52de, #bf5af2);
+}
+
+.download-btn.compact.pink {
+    background: linear-gradient(135deg, #ff2d92, #ff6b6b);
+}
+
+.download-btn.compact.red {
+    background: linear-gradient(135deg, #ff3b30, #ff9500);
+}
+
+.download-btn.compact.orange {
+    background: linear-gradient(135deg, #ff9500, #ffcc02);
+}
+
+.download-btn.compact.yellow {
+    background: linear-gradient(135deg, #ffcc02, #ffd60a);
+    color: #1d1d1f;
+}
+
+.download-btn.compact.green {
+    background: linear-gradient(135deg, #34c759, #32d74b);
+}
+
+.download-btn.compact.graphite {
+    background: linear-gradient(135deg, #8e8e93, #6d6d70);
 }
 
 body.dark .content-title {
