@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tahoe 26 Alfred Themes</title>
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <style>
+            /* Apple-style header */
+            .main-header {
+                text-align: center;
+                margin: 0rem 0 0rem 0;
+            }
+
+            .main-title {
+                font-size: 3.5rem;
+                font-weight: 700;
+                color: #1d1d1f;
+                letter-spacing: -0.025em;
+                margin-bottom: 0.5rem;
+            }
+
+            body.dark .main-title {
+                color: #f5f5f7;
+            }
+
+            /* Theme toggle container */
+            .theme-toggle-wrapper {
+                display: flex;
+                justify-content: center;
+                margin: 2rem 0;
+            }
+
+            /* Themes container */
+            .themes-wrapper {
+                margin: 1rem 0;
+            }
+
+            /* Installation and Settings sections spacing */
+            .installation-section {
+                margin-top: 4rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Apple-style header -->
+
+            <h1 class="main-header main-title">Tahoe 26 Alfred Themes</h1>
+
+            <!-- Themes card component -->
+            <div class="themes-wrapper" id="themes">
+                <div id="themes-container"></div>
+            </div>
+
+            <!-- Installation section from index.html -->
+            <div class="info-section installation-section" id="installation">
+                <h2>Installation</h2>
+                <div class="info-content">
+                    <ol>
+                        <li>Download your preferred theme and color variant</li>
+                        <li>
+                            Double-click the downloaded
+                            <code>.alfredappearance</code> file
+                        </li>
+                        <li>
+                            Alfred will automatically install and apply the
+                            theme
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Recommended Settings section from index.html -->
+            <div
+                class="info-section settings-section"
+                id="recommended-settings"
+            >
+                <div class="settings-content">
+                    <h2>Recommended Settings</h2>
+                    <div class="info-content">
+                        <p>
+                            For the most authentic Spotlight experience,
+                            configure these Alfred settings:
+                        </p>
+
+                        <div class="settings-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Open Alfred Preferences</h3>
+                                    <p>
+                                        Navigate to
+                                        <strong
+                                            >Alfred Preferences →
+                                            Appearance</strong
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Access Options</h3>
+                                    <p>
+                                        Click <strong>"Options"</strong> at the
+                                        bottom of the themes panel
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Configure Settings</h3>
+                                    <div class="settings-grid">
+                                        <div class="setting-item">
+                                            <span class="setting-checkbox"
+                                                >✅</span
+                                            >
+                                            <span class="setting-text"
+                                                >Hide hat on Alfred window</span
+                                            >
+                                        </div>
+                                        <div class="setting-item">
+                                            <span class="setting-checkbox"
+                                                >✅</span
+                                            >
+                                            <span class="setting-text"
+                                                >Hide result shortcuts</span
+                                            >
+                                        </div>
+                                        <div class="setting-item">
+                                            <span class="setting-label"
+                                                >Show result subtext:</span
+                                            >
+                                            <span class="setting-value"
+                                                >Always</span
+                                            >
+                                        </div>
+                                        <div class="setting-item">
+                                            <span class="setting-label"
+                                                >Visible result items:</span
+                                            >
+                                            <span class="setting-value">7</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings-image-section">
+                    <img
+                        src="assets/Alfred%20Preferences%20-%20Tahoe%2026%20Theme%20Settings.jpg"
+                        alt="Alfred Settings Configuration"
+                        class="settings-image-full"
+                        onclick="openModal(this.src)"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for full-size images -->
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage" />
+        </div>
+
+        <!-- Load components -->
+        <script src="components/navbar.js"></script>
+        <script src="components/theme-toggle.js"></script>
+        <script src="components/themes-card.js"></script>
+
+        <script>
+            // Initialize theme toggle in container
+            document.addEventListener("DOMContentLoaded", function () {
+                const toggleContainer = document.getElementById(
+                    "theme-toggle-container",
+                );
+                if (toggleContainer && window.themeToggle) {
+                    toggleContainer.innerHTML =
+                        window.themeToggle.createToggleHTML();
+                }
+            });
+
+            // Modal functions
+            function openModal(src) {
+                document.getElementById("imageModal").style.display = "block";
+                document.getElementById("modalImage").src = src;
+            }
+
+            function closeModal() {
+                document.getElementById("imageModal").style.display = "none";
+            }
+
+            // Close modal with escape key
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") {
+                    closeModal();
+                }
+            });
+        </script>
+    </body>
+</html>

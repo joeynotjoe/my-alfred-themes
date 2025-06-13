@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 14,
+        "colorSelected" : "#FFFFFFC4",
+        "font" : "System",
+        "color" : "#0000003F"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#0000003F"
+      },
+      "backgroundSelected" : "#D96B0ACB",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#000000D8"
+      },
+      "iconPaddingHorizontal" : 13,
+      "roundness" : 18,
+      "paddingVertical" : 8,
+      "iconSize" : 36
+    },
+    "search" : {
+      "backgroundSelected" : "#FF8D2840",
+      "paddingHorizontal" : 14,
+      "spacing" : 6,
+      "text" : {
+        "size" : 26,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#000000D8"
+      },
+      "background" : "#FFFFFF00",
+      "roundness" : 23,
+      "paddingVertical" : 4
+    },
+    "window" : {
+      "color" : "#FFFFFF00",
+      "paddingHorizontal" : 8,
+      "width" : 624,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 0,
+      "roundness" : 28,
+      "paddingVertical" : 8
+    },
+    "credit" : "joeynotjoe",
+    "visualEffectMode" : 1,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#0000003F",
+      "thickness" : 6
+    },
+    "name" : "Tahoe 26 Light - Orange"
+  }
+}
