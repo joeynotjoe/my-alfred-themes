@@ -2,7 +2,7 @@
 
 Modern Spotlight-inspired themes for [Alfred](https://alfredapp.com), replicating the sleek macOS 26 "Tahoe" interface. Please note that this was made during the first public dev beta, so things may need to be altered going forward.
 
-## 🌐 [View Theme Showcase →](https://jmurphy.github.io/my-alfred-themes/)
+## 🌐 [View Theme Showcase →](https://joeynotjoe.github.io/my-alfred-themes/)
 
 ## Available Themes
 
@@ -35,4 +35,4 @@ Light and Dark versions available in each official macOS color variant:
 
 ---
 
-*For detailed comparisons, screenshots, and setup instructions, visit the [theme showcase](https://jmurphy.github.io/my-alfred-themes/).*
+*For detailed comparisons, screenshots, and setup instructions, visit the [theme showcase](https://joeynotjoe.github.io/my-alfred-themes/).*
