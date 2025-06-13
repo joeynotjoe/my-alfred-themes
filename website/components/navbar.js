@@ -16,20 +16,23 @@ class Navbar {
             <div class="nav-container">
                 <div class="nav-left">
                     <div class="nav-title">Tahoe 26 Alfred Themes</div>
+                </div>
+
+                <div class="nav-center">
                     <ul class="nav-links">
                         <li><a href="#themes" class="nav-link" data-page="index">Themes</a></li>
-                        <li><a href="index.html#installation" class="nav-link" data-section="installation">Installation</a></li>
-                        <li><a href="index.html#recommended-settings" class="nav-link" data-section="recommended-settings">Configuration</a></li>
+                        <li><a href="index.html#installation" class="nav-link" data-section="installation">Install</a></li>
+                        <li><a href="index.html#recommended-settings" class="nav-link" data-section="recommended-settings">Settings</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="nav-right">
                     <div class="nav-download">
                         <a href="../themes/Tahoe 26 - Alfred Themes.zip" class="download-nav-btn" download>
                             <svg class="download-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
                             </svg>
-                            Download Themes
+                            Theme Pack
                         </a>
                     </div>
                     <a href="https://github.com/joeynotjoe/my-alfred-themes" target="_blank" rel="noopener noreferrer" class="github-link">
@@ -46,12 +49,12 @@ class Navbar {
                 </button>
 
                 <div class="mobile-menu">
-                    <ul class="mobile-nav-links">
+                    <div class="mobile-nav-links">
                         <li><a href="#themes" class="nav-link" data-page="index">Themes</a></li>
                         <li><a href="index.html#installation" class="nav-link" data-section="installation">Installation</a></li>
-                        <li><a href="index.html#recommended-settings" class="nav-link" data-section="recommended-settings">Configuration</a></li>
-                        <li><a href="../themes/Tahoe 26 - Alfred Themes.zip" class="nav-link" download>Download Themes</a></li>
-                        <li><a href="https://github.com/joeynotjoe/my-alfred-themes" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></li>
+                        <li><a href="index.html#recommended-settings" class="nav-link" data-section="recommended-settings">Recommended Settings</a></li>
+                        <li><a href="../themes/Tahoe 26 - Alfred Themes.zip" class="nav-link">Download Theme Pack</a></li>
+                        <li><a href="https://github.com/joeynotjoe/my-alfred-themes" target="_blank" rel="noopener noreferrer" class="nav-link">View on GitHub</a></li>
                     </ul>
                 </div>
             </div>
@@ -121,26 +124,26 @@ class Navbar {
   }
 
   setupMobileMenu() {
-    const mobileToggle = document.querySelector('.mobile-menu-toggle');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const navbar = document.querySelector('.navbar');
+    const mobileToggle = document.querySelector(".mobile-menu-toggle");
+    const mobileMenu = document.querySelector(".mobile-menu");
+    const navbar = document.querySelector(".navbar");
 
-    mobileToggle.addEventListener('click', () => {
-      navbar.classList.toggle('mobile-menu-open');
+    mobileToggle.addEventListener("click", () => {
+      navbar.classList.toggle("mobile-menu-open");
     });
 
     // Close mobile menu when clicking on a link
-    const mobileLinks = document.querySelectorAll('.mobile-nav-links a');
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        navbar.classList.remove('mobile-menu-open');
+    const mobileLinks = document.querySelectorAll(".mobile-nav-links a");
+    mobileLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navbar.classList.remove("mobile-menu-open");
       });
     });
 
     // Close mobile menu when clicking outside
-    document.addEventListener('click', (e) => {
+    document.addEventListener("click", (e) => {
       if (!navbar.contains(e.target)) {
-        navbar.classList.remove('mobile-menu-open');
+        navbar.classList.remove("mobile-menu-open");
       }
     });
   }
