@@ -103,7 +103,7 @@ class ThemesCard {
       const variantName =
         this.currentVariant.charAt(0).toUpperCase() +
         this.currentVariant.slice(1);
-      downloadBtn.href = `../themes/Tahoe%2026%20${this.currentTheme.charAt(0).toUpperCase() + this.currentTheme.slice(1)}%20-%20${variantName}.alfredappearance`;
+      downloadBtn.href = `themes/Tahoe%2026%20${this.currentTheme.charAt(0).toUpperCase() + this.currentTheme.slice(1)}%20-%20${variantName}.alfredappearance`;
     }
   }
 
