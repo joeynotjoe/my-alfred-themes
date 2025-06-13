@@ -88,12 +88,21 @@ class ThemesCard {
 
   updateThemeTitle() {
     const themeTitle = document.getElementById("theme-title");
+    const colorIndicator = document.querySelector(".content-title .color-indicator");
+    
     if (themeTitle) {
       const variantName =
         this.currentVariant.charAt(0).toUpperCase() +
         this.currentVariant.slice(1);
       const themeName = `${variantName} ${this.currentTheme.charAt(0).toUpperCase() + this.currentTheme.slice(1)} Theme`;
       themeTitle.textContent = themeName;
+    }
+    
+    if (colorIndicator) {
+      // Remove all variant classes
+      colorIndicator.className = 'color-indicator';
+      // Add current variant class
+      colorIndicator.classList.add(this.currentVariant);
     }
   }
 
