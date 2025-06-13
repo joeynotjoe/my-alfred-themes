@@ -28,7 +28,7 @@ class Navbar {
 
                 <div class="nav-right">
                     <div class="nav-download">
-                        <a href="../themes/Tahoe 26 - Alfred Themes.zip" class="download-nav-btn" download>
+                        <a href="themes/Tahoe 26 - Alfred Themes.zip" class="download-nav-btn" download>
                             <svg class="download-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
                             </svg>
@@ -53,7 +53,7 @@ class Navbar {
                         <li><a href="#themes" class="nav-link" data-page="index">Themes</a></li>
                         <li><a href="index.html#installation" class="nav-link" data-section="installation">Installation</a></li>
                         <li><a href="index.html#recommended-settings" class="nav-link" data-section="recommended-settings">Recommended Settings</a></li>
-                        <li><a href="../themes/Tahoe 26 - Alfred Themes.zip" class="nav-link">Download Theme Pack</a></li>
+                        <li><a href="themes/Tahoe 26 - Alfred Themes.zip" class="nav-link">Download Theme Pack</a></li>
                         <li><a href="https://github.com/joeynotjoe/my-alfred-themes" target="_blank" rel="noopener noreferrer" class="nav-link">View on GitHub</a></li>
                     </ul>
                 </div>
