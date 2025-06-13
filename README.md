@@ -1,6 +1,6 @@
-# Tahoe 26 - Alfred Themes
+# Tahoe 26 Alfred Themes
 
-Modern Spotlight-inspired themes for [Alfred](https://alfredapp.com), replicating the sleek macOS 26 "Tahoe" interface.
+Modern Spotlight-inspired themes for [Alfred](https://alfredapp.com), replicating the sleek macOS 26 "Tahoe" interface. Please note that this was made during the first public dev beta, so things may need to be altered going forward.
 
 ## 🌐 [View Theme Showcase →](https://jmurphy.github.io/my-alfred-themes/)
 
