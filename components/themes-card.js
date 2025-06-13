@@ -89,6 +89,7 @@ class ThemesCard {
   updateThemeTitle() {
     const themeTitle = document.getElementById("theme-title");
     const colorIndicator = document.querySelector(".content-title .color-indicator");
+    const downloadBtn = document.getElementById("download-btn");
     
     if (themeTitle) {
       const variantName =
@@ -103,6 +104,13 @@ class ThemesCard {
       colorIndicator.className = 'color-indicator';
       // Add current variant class
       colorIndicator.classList.add(this.currentVariant);
+    }
+    
+    if (downloadBtn) {
+      // Remove all variant classes from download button
+      downloadBtn.className = 'download-btn';
+      // Add current variant class
+      downloadBtn.classList.add(this.currentVariant);
     }
   }
 
