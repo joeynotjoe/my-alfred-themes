@@ -38,9 +38,9 @@ My attempt at replicating the modern Spotlight interface from macOS 26 "Tahoe". 
 #### Tahoe 26 Dark - Blue
 
 ##### Alfred
-![Tahoe 26 Dark - Blue - Alfred](assets/Tahoe%2026%20Dark%20-%20Blue%20-%20Alfred%202.jpg)
+![Tahoe 26 Dark - Blue - Alfred](assets/Tahoe%2026%20Dark%20-%20Blue%20-%20Alfred.jpg)
 
-![Tahoe 26 Dark - Blue - Alfred Results](assets/Tahoe%2026%20Dark%20-%20Blue%20-%20Alfred.jpg)
+![Tahoe 26 Dark - Blue - Alfred Results](assets/Tahoe%2026%20Dark%20-%20Blue%20-%20Alfred%202.jpg)
 
 ##### Spotlight (macOS 26 Beta 1)
 ![Spotlight](assets/Tahoe%2026%20Dark%20-%20Blue%20-%20Spotlight%202.jpg)
