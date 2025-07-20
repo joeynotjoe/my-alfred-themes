@@ -36,3 +36,7 @@ Light and Dark versions available in each official macOS color variant:
 ---
 
 *For detailed comparisons, screenshots, and setup instructions, visit the [theme showcase](https://joeynotjoe.github.io/my-alfred-themes/).*
+
+---
+
+![Alt](https://repobeats.axiom.co/api/embed/528a264bd53ac32a99007dd940e08549fdea5d99.svg "Repobeats analytics image")
